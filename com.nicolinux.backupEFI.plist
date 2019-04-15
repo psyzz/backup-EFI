@@ -9,7 +9,7 @@
     <key>RunAtLoad</key>
     <false/>
     <key>Program</key>
-    <string>/Users/nicolas/Git/backup-EFI/EFI.sh</string>
+    <string>/Users/jeremy/Documents/Dev/Github/backup-EFI</string>
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>

@@ -1,6 +1,6 @@
 #!/bin/sh
-DESTINATION="/Users/nicolas/Sauvegardes/Hackintosh/"
-TIME=`date +%Y%m%d-%H%M%S` 
+DESTINATION="/Users/jeremy/Desktop/BackupDailyEFI/"
+TIME=`date +%Y%m%d-%H%M%S`
 NAME=EFI-$TIME
-hdiutil create -srcdevice /dev/disk0s1 $DESTINATION$NAME
+hdiutil create -srcdevice /dev/disk2s1 $DESTINATION$NAME
 find $DESTINATION* -mtime +10 -type f -exec rm -r {} \;
